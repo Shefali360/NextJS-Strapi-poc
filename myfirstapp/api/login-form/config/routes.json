@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/login-forms",
+      "handler": "login-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/login-forms/count",
+      "handler": "login-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/login-forms/:id",
+      "handler": "login-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/login-forms",
+      "handler": "login-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/login-forms/:id",
+      "handler": "login-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/login-forms/:id",
+      "handler": "login-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

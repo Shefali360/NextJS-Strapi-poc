@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "login_forms",
+  "info": {
+    "name": "Login-form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "password": {
+      "type": "password",
+      "required": true,
+      "private": true,
+      "minLength": 8
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
